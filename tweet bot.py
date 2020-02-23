@@ -7,7 +7,7 @@ api = tweepy.API(auth)
 user = api.me()
 
 # Open text file verne.txt (or your chosen file) for reading
-my_file = open('verne.txt', 'r')
+my_file = open('filename.****', 'r')
 
 # Read lines one by one from my_file and assign to file_lines variable
 file_lines = my_file.readlines()
