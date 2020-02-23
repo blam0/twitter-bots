@@ -26,7 +26,7 @@ class MyStreamListener(tweepy.StreamListener):
 
 myStreamListener = MyStreamListener()
 myStream = tweepy.Stream(auth=api.auth, listener=myStreamListener)
-myStream.filter(track=['dunk'],
+myStream.filter(track=['keyword'],
                 follow=None,
                 languages=['en'],
                 is_async=False,
